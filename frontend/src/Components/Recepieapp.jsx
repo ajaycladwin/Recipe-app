@@ -187,6 +187,14 @@ function Recepieapp() {
             >
               Surprise Me
             </button>
+            {showFavoritesOnly && (
+              <button
+                onClick={() => setShowFavoritesOnly(false)}
+                className="px-4 py-2 text-sm bg-white border hover:bg-gray-100"
+              >
+                Back to Main
+              </button>
+            )}
             <button
               onClick={() => setShowFavoritesOnly(!showFavoritesOnly)}
               className={`px-4 py-2 text-sm border ${showFavoritesOnly ? 'bg-gray-200 text-black' : 'bg-white'}`}

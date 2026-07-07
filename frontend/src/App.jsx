@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Recepieapp from "./components/Recepieapp";
+import Recepieapp from "./Components/Recepieapp";
 
 function App() {
   return (
